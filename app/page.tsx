@@ -36,42 +36,45 @@ export default function PengajianInvitation() {
   const galleryImages = ["/albidayah.jpeg"];
 
   const rundownItems = [
-    { time: "07:00 - 07:15", activity: "Pengkondisian santri angkatan 30" },
-    { time: "07:15 - 07:45", activity: "Penyambutan santri angkatan 30" },
+    { time: "07:00 - 07:15", activity: "Pengkondisian santri Angkatan 30" },
+    { time: "07:15 - 07:45", activity: "Penyambutan santri Angkatan 30" },
     { time: "07:45 - 08:00", activity: "Pembukaan MC" },
     { time: "08:00 - 08:10", activity: "Tawassul" },
     { time: "08:10 - 08:20", activity: "Pembacaan ayat suci Al-Qur’an" },
-    { time: "08:20 - 08:30", activity: "Sholawat angkatan dan lagu 30 Pa" },
+    { time: "08:20 - 08:30", activity: "Sholawat angkatan dan lagu 30 Putra" },
     { time: "08:30 - 08:40", activity: "Paduan suara" },
     { time: "08:40 - 08:45", activity: "Laporan ketua pelaksana" },
     {
       time: "08:45 - 08:55",
-      activity: "Sambutan perwakilan orang tua santri angkatan 30",
+      activity: "Sambutan perwakilan orang tua santri Angkatan 30",
     },
-    { time: "08:55 - 09:05", activity: "Sambutan kepala madrasah Aliyah" },
+    {
+      time: "08:55 - 09:05",
+      activity: "Sambutan Kepala Madrasah Aliyah Albidayah",
+    },
     {
       time: "09:05 - 09:20",
-      activity: "Sambutan Ketua dewan pembina santri sekaligus simbolis",
+      activity: "Sambutan Ketua Dewan Pembina Santri sekaligus simbolis",
     },
     { time: "09:20 - 09:30", activity: "Pembacaan doa bersama" },
     { time: "09:30 - 09:45", activity: "Pidato 5 bahasa" },
-    { time: "09:45 - 10:00", activity: "Angklung" },
-    { time: "10:00 - 10:15", activity: "Qosidah Pi" },
-    { time: "10:15 - 10:30", activity: "Ratoeh Jaroe" },
+    { time: "09:45 - 10:00", activity: "Angklung: Senada" },
+    { time: "10:00 - 10:15", activity: "Qosidah Putri: Nailul Hana" },
+    { time: "10:15 - 10:30", activity: "Ratoh Jaroe" },
     { time: "10:30 - 10:45", activity: "Pagar Nusa" },
-    { time: "11:00 - 11:15", activity: "Qosidah" },
-    { time: "11:15 - 11:30", activity: "Marawis" },
-    { time: "11:30 - 11:45", activity: "Hadroh" },
-    { time: "11:45 - 12:05", activity: "Break Sholat Dzuhur" },
+    { time: "11:00 - 11:15", activity: "Qosidah Putra: Jawahirul Fata" },
+    { time: "11:15 - 11:30", activity: "Marawis Putra: El-Lathief" },
+    { time: "11:30 - 11:45", activity: "Hadroh: Mahabbatul Karimah" },
+    { time: "11:45 - 12:05", activity: "Break Sholat Zuhur" },
     { time: "12:05 - 12:15", activity: "Persiapan" },
     {
       time: "12:15 - 12:45",
-      activity: "Pengumuman santri berprestasi oleh ketua dewan pembina santri",
+      activity: "Pengumuman santri berprestasi oleh ketua Dewan Pembina Santri",
     },
     { time: "12:45 - 13:15", activity: "Ramah Tamah" },
     {
       time: "13:15 - 14:15",
-      activity: "Penyematan Mendali & Foto Bersama Santri angkatan 30",
+      activity: "Penyematan Medali & Foto Bersama Santri Angkatan 30",
     },
   ];
 
@@ -1050,22 +1053,17 @@ export default function PengajianInvitation() {
 
             <div className="text-white">
               <p className="text-lg mb-2">
-                {eventDate.toLocaleDateString("id-ID", {
-                  weekday: "long",
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })}
+                Ahad, 8 Juni 2025/12 Dzulhijjah 1446 H
               </p>
               <p className="text-lg">
-                Aula GSG Pondok Pesantren Terpadu Albidayah
+                Aula Gedung Serba Guna (GSG) Pesantren Terpadu Albidayah
               </p>
             </div>
 
             <div className="mt-6">
               <p className="text-yellow-200 mb-2">Kepada Yth.</p>
               <p className="text-2xl font-bold text-yellow-400">
-                Orang Tua Santri angkatan 30
+                Orang Tua Santri Angkatan 30
               </p>
             </div>
           </div>
@@ -1302,8 +1300,8 @@ export default function PengajianInvitation() {
 
           <CardContent className="p-6 relative z-10">
             <p className="text-white text-center leading-relaxed">
-              Dengan ini kami mengundang Bapak/Ibu/Saudara/I untuk menghadiri
-              Tasyakuran Angkatan 30 Pondok Pesantren Terpadu Albidayah
+              Dengan ini kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri
+              Tasyakuran Santri Angkatan 30 Pesantren Terpadu Albidayah.
             </p>
             <h4 className="text-xl font-bold text-yellow-400 text-center mb-4">
               Yang Diselenggarakan Pada
@@ -1311,7 +1309,7 @@ export default function PengajianInvitation() {
             <div className="flex items-center gap-2">
               <Calendar className="h-16 w-16 text-yellow-400" />
               <div className="flex flex-col">
-                <p className="text-white leading-relaxed">Minggu</p>
+                <p className="text-white leading-relaxed">AHAD</p>
                 <div className="flex items-center gap-1">
                   <h3 className="text-[3rem] leading-none shrink-0">08</h3>
                   <p className="text-white leading-relaxed leading-none">
@@ -1325,7 +1323,7 @@ export default function PengajianInvitation() {
               <Map className="h-16 w-16 text-yellow-400 shrink-0" />
               <div className="flex flex-col">
                 <p className="text-white leading-relaxed font-bold text-sm">
-                  Aula GSG Pondok Pesantren Terpadu Albidayah
+                  Aula Gedung Serba Guna (GSG) Pesantren Terpadu Albidayah
                 </p>
 
                 <p className="text-white leading-relaxed text-xs">
@@ -1537,7 +1535,7 @@ export default function PengajianInvitation() {
             <CardContent className="p-6 relative z-10">
               <div className="text-center mb-4">
                 <h4 className="text-xl font-bold text-yellow-400">
-                  Aula GSG Pondok Pesantren Terpadu Albidayah
+                  Aula Gedung Serba Guna (GSG) Pesantren Terpadu Albidayah
                 </h4>
                 <p className="text-white">
                   Jl. Raya Batujajajar No.01 Rt.003/008 Desa Giriasih Kec.
