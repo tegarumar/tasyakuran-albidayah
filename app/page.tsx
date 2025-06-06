@@ -1063,7 +1063,7 @@ export default function PengajianInvitation() {
             <div className="mt-6">
               <p className="text-yellow-200 mb-2">Kepada Yth.</p>
               <p className="text-2xl font-bold text-yellow-400">
-                Orang Tua Santri Angkatan 30
+                Orang Tua/Wali Santri Angkatan 30
               </p>
             </div>
           </div>
@@ -1327,7 +1327,7 @@ export default function PengajianInvitation() {
                 </p>
 
                 <p className="text-white leading-relaxed text-xs">
-                  Jl. Raya Batujajajar No.01 Rt.003/008 Desa Giriasih Kec.
+                  Jl. Raya Batujajajar No.13 Rt.003/008 Desa Giriasih Kec.
                   Batujajar 40561
                 </p>
               </div>
@@ -1538,7 +1538,7 @@ export default function PengajianInvitation() {
                   Aula Gedung Serba Guna (GSG) Pesantren Terpadu Albidayah
                 </h4>
                 <p className="text-white">
-                  Jl. Raya Batujajajar No.01 Rt.003/008 Desa Giriasih Kec.
+                  Jl. Raya Batujajajar No.13 Rt.003/008 Desa Giriasih Kec.
                   Batujajar 40561
                 </p>
               </div>
