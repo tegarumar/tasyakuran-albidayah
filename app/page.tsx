@@ -1654,7 +1654,7 @@ export default function PengajianInvitation() {
           <p className="text-yellow-200 mb-2">Jazakumullahu Khairan</p>
           <p className="text-white text-sm">
             Atas kehadiran dan partisipasi Bapak/Ibu/Saudara/i dalam acara
-            pengajian ini
+            Tasyakuran ini
           </p>
           <div className="mt-4">
             <p className="text-yellow-400 font-bold">
