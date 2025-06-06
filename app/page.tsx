@@ -178,10 +178,10 @@ export default function PengajianInvitation() {
       </audio>
 
       {showWelcome && (
-        <div className="fixed inset-0 z-[100] bg-black bg-opacity-80 relative h-screen flex items-center justify-center overflow-hidden">
+        <div className="fixed inset-0 z-[100] bg-black bg-opacity-80 h-screen flex items-center justify-center overflow-hidden">
           <section
             id="header"
-            className="relative px-6 py-8 text-center flex-1 h-full w-full overflow-hidden flex items-center justify-center"
+            className="relative px-6 py-8 text-center flex-1 h-full w-full overflow-hidden flex items-center justify-center m-auto max-w-[480px]"
           >
             <div className="animate-fade-in">
               {/* Enhanced Decorative Border with Islamic Patterns */}
@@ -1411,7 +1411,7 @@ export default function PengajianInvitation() {
                 key={index}
                 className="flex items-start space-x-4 bg-gradient-to-r from-blue-800/50 to-blue-900/50 rounded-lg p-4 border-l-4 border-yellow-400"
               >
-                <div className="text-yellow-400 font-bold text-sm min-w-[80px]">
+                <div className="text-yellow-400 font-bold text-sm min-w-[80px] text-nowrap">
                   {item.time}
                 </div>
                 <div className="text-white text-sm">{item.activity}</div>
