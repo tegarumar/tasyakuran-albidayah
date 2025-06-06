@@ -41,7 +41,7 @@ export default function PengajianInvitation() {
     { time: "07:45 - 08:00", activity: "Pembukaan MC" },
     { time: "08:00 - 08:10", activity: "Tawassul" },
     { time: "08:10 - 08:20", activity: "Pembacaan ayat suci Al-Qur’an" },
-    { time: "08:20 - 08:30", activity: "Sholawat angkatan dan lagu 30 Putra" },
+    { time: "08:20 - 08:30", activity: "Sholawat dan lagu Angkatan 30 Putra" },
     { time: "08:30 - 08:40", activity: "Paduan suara" },
     { time: "08:40 - 08:45", activity: "Laporan ketua pelaksana" },
     {
@@ -1651,7 +1651,9 @@ export default function PengajianInvitation() {
       {/* Footer */}
       <footer className="px-6 py-8 pb-24 text-center">
         <div className="border-t border-yellow-400 pt-6">
-          <p className="text-yellow-200 mb-2">Jazakumullahu Khairan</p>
+          <p className="text-yellow-200 mb-2">
+            <i>Jazakumullahu Khairan</i>
+          </p>
           <p className="text-white text-sm">
             Atas kehadiran dan partisipasi Bapak/Ibu/Saudara/i dalam acara ini
           </p>
