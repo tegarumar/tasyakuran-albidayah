@@ -42,7 +42,7 @@ export default function PengajianInvitation() {
     { time: "08:00 - 08:10", activity: "Tawassul" },
     { time: "08:10 - 08:20", activity: "Pembacaan ayat suci Al-Qur’an" },
     { time: "08:20 - 08:30", activity: "Sholawat dan lagu Angkatan 30 Putra" },
-    { time: "08:30 - 08:40", activity: "Paduan suara" },
+    { time: "08:30 - 08:40", activity: "Paduan Suara Angkatan 30 Putri" },
     { time: "08:40 - 08:45", activity: "Laporan ketua pelaksana" },
     {
       time: "08:45 - 08:55",
